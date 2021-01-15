@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    text-align: center;
+    background: brown;
+    color: white;
+}
+.title{
+    text-align: center;
+}
+h1{
+    font-family: 'Potta One', cursive;
+    font-size: 400;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+section{
+   
+    text-align: center;
+    
+
+    
+   
+}
+.drums{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    margin: auto 150px auto 150px;
+   
+    
+    
+}
+.drums{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    border: 2px solid brown;
+}
+.shadow{
+    text-shadow: 1px 1px 2px black, 0 0 25px blue;
+    border: 4px solid white;
+
+}
+button{
+    padding: 45px;
+    font-size: 2em;
+    font-family: 'Potta One', cursive;
+    background: white;
+    border: 2px solid ;
+    text-shadow: 2px 2px 4px #6a8bbd;
+
+   
+}
+h2{
+    font-family: cursive;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.a{
+    background-image: url('img/snare.png');
+}
+.w{
+    background-image: url('img/tom1.png');
+}
+.s{
+    background-image: url('img/tom2.png');
+}
+.d{
+    background-image: url('img/tom3.png');
+}
+.j{
+    background-image: url('img/tom4.png');
+}
+.k{
+    background-image: url('img/kick.png');
+}
+.l{
+    background-image: url('img/crash.png');
+}
+
+@media only screen and (max-width: 1080px){
+    .drums{
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto 40px auto;
+    }
+    button{
+        width: 35vh;
+    }
+}
